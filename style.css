@@ -12,7 +12,14 @@ h3{
 }
 
 
-li{
-    
-    #html color: rgba(255, 68, 0, 0.61);
+#html{
+    color: darkorange;
+}
+
+#css{
+    color: aquamarine;
+}
+
+#javascript{
+    color: gold;
 }
