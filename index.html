@@ -20,12 +20,23 @@
         <li id="javascript"><strong>JavaScript_</strong>Linguagem de programação</li>
     </ul>
     <hr>
-
+  
     <div>
         <h3 id="Rigby">Este é o Rigby</h3>
         <p></p>
         <img src="image.png" alt="não foi possível carregar a imagem">
     </div>
+<button id="botao">✨<span>0</span></button>
+  
+<script>
+    const botao = document.querySelector("button")
+    botao.addEventListener('click', curtir)
+
+    function curtir(){
+        let curtidas = document.querySelector("span")
+        curtidas.textContent++;
+    }
+</script>
 
 </body>
 </html>
