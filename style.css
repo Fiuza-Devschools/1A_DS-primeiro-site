@@ -36,3 +36,8 @@ span{
 color: black;
 }
 
+#acessibilidade{
+display: fixed;
+left: 20px;
+bottom: 20px;
+}
