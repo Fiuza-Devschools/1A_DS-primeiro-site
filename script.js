@@ -6,7 +6,7 @@ function curtir() {
     curtidas.textContent++;
 }
 
-//Botão de tamanho
+//Botao de tamanho
 const tamanho = document.getElementById("tamanho")
 tamanho.addEventListener("click", aumentarFonte)
 let fonte = 16;
@@ -15,4 +15,10 @@ function aumentarFonte(){
     fonte++;
     document.body.style.fontSize = fonte + "px";
 }
+
+//Botao contraste
+function
+ 
+
+//funçao do cotraste
 
